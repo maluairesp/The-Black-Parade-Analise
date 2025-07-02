@@ -13,13 +13,25 @@
 </head>
 
 <body>
-<h1>Welcome to The Black Parade</h1>
+<<div class="intro-banner position-relative text-center">
+  <!-- Ghost words no fundo -->
+  <div class="ghost-text">Cancer</div>
+  <div class="ghost-text" style="top: 60%;">Disenchanted</div>
+  <div class="ghost-text" style="top: 20%; left: 20%;">Mama</div>
+  <div class="ghost-text" style="top: 75%; left: 80%;">Sleep</div>
+
+  <!-- Título centralizado -->
+  <div class="container">
+    <h1 class="display-4 fw-bold">Welcome to The Black Parade</h1>
+    <p class="lead mt-3">Uma jornada visual e emocional pelas letras do álbum</p>
+  </div>
 </div>
+
 
 
   <section id="intro" class="section text-center">
   <div class="container position-relative">
-    <div class="ghost-text">Parade</div>
+    <div class="ghost-text">Teenagers</div>
     <h2>Sobre o Projeto</h2>
     <p class="lead">O álbum The Black Parade teve um grande impacto na minha vida, ainda na adolescência, e foi por isso que escolhi essa obra como tema do meu primeiro projeto independente. Este trabalho tem como objetivo aplicar técnicas de ciência de dados para interpretar suas letras de forma mais profunda. Utilizando ferramentas de análise textual e visualização, busquei identificar padrões linguísticos, sentimentos predominantes e temas recorrentes ao longo das faixas. A proposta não é apenas explorar estatísticas, mas também transformar o conteúdo lírico em uma narrativa visual.</p>
   </div>
@@ -27,7 +39,7 @@
 
 <section id="wordcloud" class="section text-center">
   <div class="container position-relative">
-    <div class="ghost-text">Parade</div>
+    <div class="ghost-text">Teenagers</div>
     <h2>Word Cloud</h2>
     <img src="mcr_wordcloud.png" alt="Word Cloud" class="img-fluid mt-4" style="max-width: 75%;">
     <p class="mt-3">A word cloud é uma forma de visualizar quais palavras aparecem com mais frequência nas letras do álbum. Quanto maior a palavra na imagem, mais vezes ela foi usada. Antes de gerar a nuvem, removemos palavras comuns (como "the", "and") para destacar os termos mais significativos e temáticos das músicas.</p>
@@ -36,7 +48,7 @@
 
 <section id="sentiment" class="section text-center">
   <div class="container position-relative">
-    <div class="ghost-text">Parade</div>
+    <div class="ghost-text">Blood</div>
     <h2>Análise de Sentimento</h2>
     <img src="mcr_sentiment.png" alt="Gráfico de sentimento" class="img-fluid mt-4" style="max-width: 75%;">
     <p class="mt-3">A análise de sentimento foi feita com base nas palavras presentes nas letras de cada música. Letras com termos mais neutros ou positivos apresentam pontuação mais alta. Isso nos ajuda a entender, de forma objetiva, quais músicas do álbum são mais ou menos tristes.</p>
@@ -46,7 +58,6 @@
 <section id="final" class="section text-center">
   <div class="container position-relative">
     <div class="ghost-text">Farewell</div>
-    <div class="ghost-text">Parade</div>
       <h2>So Long and Goodnight</h2>
       <p class="mt-4"><strong>Tecnologias utilizadas:</strong> Python (TextBlob, BeautifulSoup, WordCloud), HTML5, CSS3, Bootstrap 5</p>
 
