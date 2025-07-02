@@ -24,7 +24,7 @@ O objetivo foi aplicar técnicas de análise textual para interpretar as letras 
 ## 📸 Preview do Projeto
 
 🔗 Acesse aqui:  
-[https://maluairesp.github.io/black-parade-analysis/](https://maluairesp.github.io/black-parade-analysis/)
+[https://maluairesp.github.io/black-parade-analysis/]( https://maluairesp.github.io/The-Black-Parade-Analise/)
 
 <img src="mcr_wordcloud.png" width="400" alt="Wordcloud" />
 <img src="mcr_sentiment.png" width="400" alt="Sentiment chart" />
