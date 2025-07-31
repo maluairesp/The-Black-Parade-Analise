@@ -21,10 +21,8 @@ O álbum "The Black Parade" teve um grande impacto na minha vida, ainda adolesce
 
 ### 📸 Preview do Projeto  
 🔗 Acesse aqui:  
-https://maluairesp.github.io/black-parade-analysis/  
+https://maluairesp.github.io/The-Black-Parade-Analise/
 
-- Wordcloud  
-- Grafico de sentimentos
 
 ### 📁 Estrutura de Arquivos
 📂 black-parade-analysis/
@@ -65,10 +63,8 @@ The goal was to apply text analysis techniques to interpret the album's lyrics f
 
 ### 📸 Project Preview  
 🔗 Live Project:  
-https://maluairesp.github.io/black-parade-analysis/  
+https://maluairesp.github.io/The-Black-Parade-Analise/
 
-- Wordcloud  
-- Sentiment chart  
 
 ### 📁 File Structure
 📂 black-parade-analysis/
